@@ -8,4 +8,3 @@ document.body.appendChild(video);
 navigator.mediaDevices.getUserMedia({ video: true })
     .then((stream) => video.srcObject = stream)
     .catch((error) => alert(`getUserMedia error: ${error.name}`));
-ocean2➜  ~/payloads$
